@@ -1,0 +1,35 @@
+{
+  "name": "vite-react-starter",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --config ./config/vite.dev.react.js",
+    "dev:react": "vite --config ./config/vite.dev.react.js",
+    "dev:vue": "vite --config ./config/vite.dev.vue.js",
+    "build:react": "vite build --config ./config/vite.prod.react.js",
+    "build:vue": "vite build --config ./config/vite.prod.vue.js",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "sanitize-html": "^2.13.0",
+    "vue": "^3.4.27"
+  },
+  "peerDependencies": {},
+  "devDependencies": {
+    "@types/react": "^18.3.2",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.0",
+    "@vitejs/plugin-vue": "^5.0.5",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react-refresh": "^0.4.7",
+    "sass": "^1.77.3",
+    "vite": "^5.2.11"
+  }
+}
